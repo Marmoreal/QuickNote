@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.Material3.CardView.Elevated"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="12dp"
+    app:cardCornerRadius="12dp">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/cardText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="16sp"
+        tools:text="Note text that resizes the card vertically to fit itself Note text that resizes the card vertically to fit itself" />
+</com.google.android.material.card.MaterialCardView>

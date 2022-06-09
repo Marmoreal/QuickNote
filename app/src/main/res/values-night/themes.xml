@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Hw6" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimaryContainer">@color/primary_container_dark</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary_container_dark</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant_dark</item>
+        <item name="colorOnSurface">@color/on_surface_dark</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorOnError">@color/on_error</item>
+
+    </style>
+    <style name="Theme.Hw6.CoordinatorLayout" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="background">@color/surface_dark</item>
+    </style>
+</resources>
